@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.App {
+  background-color: #5865F2; 
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+.logo {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+   width: 150px; 
+   height: auto;
+   opacity: 0.9;
+   z-index: 0
+}
+
+
+.menu-icon {
+  position: absolute;
+top: 3%;
+right: 3%;
+width: 50px;
+height: auto;
+}
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  color: white;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+  text-align: left;
+  line-height: 1.2;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button.download {
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+}
+button.browser {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.BackGround {
+  position: absolute;
+  bottom: 0; 
+  left: 75%; 
+  transform: translateX(-50%); 
+  width: 600px; 
+  height: auto;
+  cursor: pointer;
+}
+
